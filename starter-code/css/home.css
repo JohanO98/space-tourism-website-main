@@ -1,0 +1,37 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,p,ul {
+    margin:0;
+}
+/* --------------------------------HOME-------------------------------- */
+.home-container{
+    background-image: url('../assets/home/background-home-mobile.jpg');
+    height: 100vh;
+    width: 100vw;
+}
+
+/* ------------------------------Navigation--------------------------- */
+.nav-container {
+    display: flex;
+    justify-content: space-between
+}
+
+.nav-menu {
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.nav-item {
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white    
+}
